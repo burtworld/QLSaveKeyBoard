@@ -1,0 +1,22 @@
+{
+  "name": "QLSaveKeyBoard",
+  "version": "0.1.0",
+  "summary": "A short description of QLSaveKeyBoard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Paramita/QLSaveKeyBoard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Paramita": "baqkoo007@aliyun.com"
+  },
+  "source": {
+    "git": "https://github.com/Paramita/QLSaveKeyBoard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QLSaveKeyBoard/Classes/**/*"
+}

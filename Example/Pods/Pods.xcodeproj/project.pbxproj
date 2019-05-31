@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0600AE2C03F65AE9D92DB7DB9B5EA560 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		06E50804DFAB79763FF4B7E335E61920 /* QLSaveKeyBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E2DAEE4E5DBBDFE1D4924A64375202 /* QLSaveKeyBoard-dummy.m */; };
+		0F9D863ACDC84D0915E08BB7227C94D1 /* Pods-QLSaveKeyBoard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A31ACDCE1E59A87F3DAA73443401242 /* Pods-QLSaveKeyBoard_Example-dummy.m */; };
+		205B05FD432884E55FD94D81332BE669 /* Pods-QLSaveKeyBoard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7BEFDB07BA9BB0D9A062E1EC9548E9 /* Pods-QLSaveKeyBoard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55DAD31B028258D67BFA5D473BED34CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		60EFDBE4B0D2ED593DCE8DECA3FB7490 /* QLSaveKeyBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF0156A37A75B24AD755CC696FDDF90 /* QLSaveKeyBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC348F4DCE2D7ED82207AD3CFE21ED26 /* Pods-QLSaveKeyBoard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5F6D3184CC5D6AC387CFBC46EF174B /* Pods-QLSaveKeyBoard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6609FEF46DD668F3667388425F0AAE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		E5077CE2F6E71FC8951CBD2B5F64CB1A /* Pods-QLSaveKeyBoard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82007BD9D0FE67CC07A36CE59B3BB871 /* Pods-QLSaveKeyBoard_Tests-dummy.m */; };
+		FA6632D0E713BC4AD66E88A25B6885A6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AD53EB5290BD74B4B37CA83D5A603BF7 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		670B6E5615D18159541BC3DB3CE58888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE58784080B65FF869C87B13D9C62FAB;
+			remoteInfo = QLSaveKeyBoard;
+		};
+		ADC4148B6B336788FA22AE1D93482AA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E48557EC211335F25EB4A3CD1B51CF97;
+			remoteInfo = "Pods-QLSaveKeyBoard_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BD8D0831D9B90DAA775C446C0DC356 /* Pods-QLSaveKeyBoard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLSaveKeyBoard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		04CF602652E4E66D230E79608B92581A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		202AFDB07AD407BD8276DBA3BDD70A4A /* Pods-QLSaveKeyBoard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLSaveKeyBoard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2332FE26587681724B4BD160913C2719 /* QLSaveKeyBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QLSaveKeyBoard.modulemap; sourceTree = "<group>"; };
+		27E24D0AB5EC67CD1CDF5D15A5A6A440 /* Pods_QLSaveKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QLSaveKeyBoard_Example.framework; path = "Pods-QLSaveKeyBoard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A31ACDCE1E59A87F3DAA73443401242 /* Pods-QLSaveKeyBoard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QLSaveKeyBoard_Example-dummy.m"; sourceTree = "<group>"; };
+		4B7BEFDB07BA9BB0D9A062E1EC9548E9 /* Pods-QLSaveKeyBoard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QLSaveKeyBoard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		52BA723153FA98806DCB28703440A894 /* Pods-QLSaveKeyBoard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QLSaveKeyBoard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		52E433039034828D891A1A9A79A68B41 /* Pods-QLSaveKeyBoard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLSaveKeyBoard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5694C13F134D13C7BC6A69E5984E3F14 /* Pods_QLSaveKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QLSaveKeyBoard_Tests.framework; path = "Pods-QLSaveKeyBoard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58320646CA507D1B6C82D86FC6BF8D87 /* Pods-QLSaveKeyBoard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLSaveKeyBoard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		680432D28CD58E2A262732D5F4C8E90B /* QLSaveKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QLSaveKeyBoard.framework; path = QLSaveKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFECD5EF12B587866B351AECC527A46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		78EB8E69748358C9188968A82EB3312E /* Pods-QLSaveKeyBoard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLSaveKeyBoard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		82007BD9D0FE67CC07A36CE59B3BB871 /* Pods-QLSaveKeyBoard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QLSaveKeyBoard_Tests-dummy.m"; sourceTree = "<group>"; };
+		88CEE972C74E85BA7A83234AD290D8E3 /* QLSaveKeyBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QLSaveKeyBoard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B5F6D3184CC5D6AC387CFBC46EF174B /* Pods-QLSaveKeyBoard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QLSaveKeyBoard_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6791A55EE2D50F32C0E4FD9D5B51C8 /* Pods-QLSaveKeyBoard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLSaveKeyBoard_Tests-Info.plist"; sourceTree = "<group>"; };
+		AD53EB5290BD74B4B37CA83D5A603BF7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QLSaveKeyBoard/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		AE68906C825BCD6BCF33C2A91A37A9BA /* Pods-QLSaveKeyBoard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLSaveKeyBoard_Example-Info.plist"; sourceTree = "<group>"; };
+		BF3349ACC6B7AD5284A3DEE3BE01CDEE /* QLSaveKeyBoard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLSaveKeyBoard.xcconfig; sourceTree = "<group>"; };
+		C3E2DAEE4E5DBBDFE1D4924A64375202 /* QLSaveKeyBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QLSaveKeyBoard-dummy.m"; sourceTree = "<group>"; };
+		C63FE1827662D8829D19A419CC5F272F /* QLSaveKeyBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QLSaveKeyBoard-Info.plist"; sourceTree = "<group>"; };
+		C74A3D597893669599AC4561C8BB1018 /* Pods-QLSaveKeyBoard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QLSaveKeyBoard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0F9D3AFFE4812C25BBF8B2B6F35055D /* QLSaveKeyBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLSaveKeyBoard-prefix.pch"; sourceTree = "<group>"; };
+		D893CE3DC002210F9539C853F17F5147 /* Pods-QLSaveKeyBoard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QLSaveKeyBoard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB132F650AE7746CB957500254BD5565 /* Pods-QLSaveKeyBoard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLSaveKeyBoard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DCA82423A80BD2A1B2F19A202475F59A /* Pods-QLSaveKeyBoard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QLSaveKeyBoard_Example.modulemap"; sourceTree = "<group>"; };
+		EF80986FD59A837E30BEC4A1991959C7 /* Pods-QLSaveKeyBoard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QLSaveKeyBoard_Tests.modulemap"; sourceTree = "<group>"; };
+		FBF0156A37A75B24AD755CC696FDDF90 /* QLSaveKeyBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLSaveKeyBoard-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080DFE7DF327F5AE86EE734DACBCBC69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0600AE2C03F65AE9D92DB7DB9B5EA560 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA5903F4C6058BFAE827580EDCCB3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6609FEF46DD668F3667388425F0AAE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5DDDEFAE0B50DE7587CD5141EDC5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DAD31B028258D67BFA5D473BED34CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B1BF05B46F53F3B3671447319263B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2332FE26587681724B4BD160913C2719 /* QLSaveKeyBoard.modulemap */,
+				BF3349ACC6B7AD5284A3DEE3BE01CDEE /* QLSaveKeyBoard.xcconfig */,
+				C3E2DAEE4E5DBBDFE1D4924A64375202 /* QLSaveKeyBoard-dummy.m */,
+				C63FE1827662D8829D19A419CC5F272F /* QLSaveKeyBoard-Info.plist */,
+				D0F9D3AFFE4812C25BBF8B2B6F35055D /* QLSaveKeyBoard-prefix.pch */,
+				FBF0156A37A75B24AD755CC696FDDF90 /* QLSaveKeyBoard-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QLSaveKeyBoard";
+			sourceTree = "<group>";
+		};
+		4859A86EF43A175FF02A1D21137BFD2F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				04CF602652E4E66D230E79608B92581A /* LICENSE */,
+				88CEE972C74E85BA7A83234AD290D8E3 /* QLSaveKeyBoard.podspec */,
+				6EFECD5EF12B587866B351AECC527A46 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7510232F9F4AFF79225B734ADFE4BDCE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B75B5F470AF4C5C31B6ED5B7A7EBCFD /* QLSaveKeyBoard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8B75B5F470AF4C5C31B6ED5B7A7EBCFD /* QLSaveKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AD53EB5290BD74B4B37CA83D5A603BF7 /* ReplaceMe.m */,
+				4859A86EF43A175FF02A1D21137BFD2F /* Pod */,
+				13B1BF05B46F53F3B3671447319263B0 /* Support Files */,
+			);
+			name = QLSaveKeyBoard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9B1DD8CA369ECC3150EE6736D10A3108 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1516437036B8D5B397F42A64B4DBC71 /* Pods-QLSaveKeyBoard_Example */,
+				F256952DDDB45C211022A879CBCB2B3B /* Pods-QLSaveKeyBoard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7510232F9F4AFF79225B734ADFE4BDCE /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EE13B27BE820FC272DA7A4FC3ACD8D15 /* Products */,
+				9B1DD8CA369ECC3150EE6736D10A3108 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE13B27BE820FC272DA7A4FC3ACD8D15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E24D0AB5EC67CD1CDF5D15A5A6A440 /* Pods_QLSaveKeyBoard_Example.framework */,
+				5694C13F134D13C7BC6A69E5984E3F14 /* Pods_QLSaveKeyBoard_Tests.framework */,
+				680432D28CD58E2A262732D5F4C8E90B /* QLSaveKeyBoard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1516437036B8D5B397F42A64B4DBC71 /* Pods-QLSaveKeyBoard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DCA82423A80BD2A1B2F19A202475F59A /* Pods-QLSaveKeyBoard_Example.modulemap */,
+				D893CE3DC002210F9539C853F17F5147 /* Pods-QLSaveKeyBoard_Example-acknowledgements.markdown */,
+				58320646CA507D1B6C82D86FC6BF8D87 /* Pods-QLSaveKeyBoard_Example-acknowledgements.plist */,
+				4A31ACDCE1E59A87F3DAA73443401242 /* Pods-QLSaveKeyBoard_Example-dummy.m */,
+				52BA723153FA98806DCB28703440A894 /* Pods-QLSaveKeyBoard_Example-frameworks.sh */,
+				AE68906C825BCD6BCF33C2A91A37A9BA /* Pods-QLSaveKeyBoard_Example-Info.plist */,
+				9B5F6D3184CC5D6AC387CFBC46EF174B /* Pods-QLSaveKeyBoard_Example-umbrella.h */,
+				00BD8D0831D9B90DAA775C446C0DC356 /* Pods-QLSaveKeyBoard_Example.debug.xcconfig */,
+				202AFDB07AD407BD8276DBA3BDD70A4A /* Pods-QLSaveKeyBoard_Example.release.xcconfig */,
+			);
+			name = "Pods-QLSaveKeyBoard_Example";
+			path = "Target Support Files/Pods-QLSaveKeyBoard_Example";
+			sourceTree = "<group>";
+		};
+		F256952DDDB45C211022A879CBCB2B3B /* Pods-QLSaveKeyBoard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF80986FD59A837E30BEC4A1991959C7 /* Pods-QLSaveKeyBoard_Tests.modulemap */,
+				C74A3D597893669599AC4561C8BB1018 /* Pods-QLSaveKeyBoard_Tests-acknowledgements.markdown */,
+				52E433039034828D891A1A9A79A68B41 /* Pods-QLSaveKeyBoard_Tests-acknowledgements.plist */,
+				82007BD9D0FE67CC07A36CE59B3BB871 /* Pods-QLSaveKeyBoard_Tests-dummy.m */,
+				9F6791A55EE2D50F32C0E4FD9D5B51C8 /* Pods-QLSaveKeyBoard_Tests-Info.plist */,
+				4B7BEFDB07BA9BB0D9A062E1EC9548E9 /* Pods-QLSaveKeyBoard_Tests-umbrella.h */,
+				78EB8E69748358C9188968A82EB3312E /* Pods-QLSaveKeyBoard_Tests.debug.xcconfig */,
+				DB132F650AE7746CB957500254BD5565 /* Pods-QLSaveKeyBoard_Tests.release.xcconfig */,
+			);
+			name = "Pods-QLSaveKeyBoard_Tests";
+			path = "Target Support Files/Pods-QLSaveKeyBoard_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		130089D9A3CCD07B564BE414804ED4FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC348F4DCE2D7ED82207AD3CFE21ED26 /* Pods-QLSaveKeyBoard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14B36BD1E9FC758C0AFBEB4C552803D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EFDBE4B0D2ED593DCE8DECA3FB7490 /* QLSaveKeyBoard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D2457DEC4135BED6ABAA7278A9305F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205B05FD432884E55FD94D81332BE669 /* Pods-QLSaveKeyBoard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DBB425C2237144F2B34C7BF7B0022CD8 /* Pods-QLSaveKeyBoard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAA03E1DFE6C4457EC0106648D93D14 /* Build configuration list for PBXNativeTarget "Pods-QLSaveKeyBoard_Tests" */;
+			buildPhases = (
+				A9D2457DEC4135BED6ABAA7278A9305F /* Headers */,
+				BE3CA5CA648F22B5DAD44208B1713CE7 /* Sources */,
+				EFA5903F4C6058BFAE827580EDCCB3D9 /* Frameworks */,
+				31C2BE6DEC5B813B3B060388566B861B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC45C2FEEB98B16C1AB02345693C98C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-QLSaveKeyBoard_Tests";
+			productName = "Pods-QLSaveKeyBoard_Tests";
+			productReference = 5694C13F134D13C7BC6A69E5984E3F14 /* Pods_QLSaveKeyBoard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE58784080B65FF869C87B13D9C62FAB /* QLSaveKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C5ED8EF6074D0D68066F56DDEFAA1F /* Build configuration list for PBXNativeTarget "QLSaveKeyBoard" */;
+			buildPhases = (
+				14B36BD1E9FC758C0AFBEB4C552803D5 /* Headers */,
+				D991F9D213C09A56E959A9899AEED3F9 /* Sources */,
+				080DFE7DF327F5AE86EE734DACBCBC69 /* Frameworks */,
+				7540CCDC94A15852AFF0721A46BD029E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLSaveKeyBoard;
+			productName = QLSaveKeyBoard;
+			productReference = 680432D28CD58E2A262732D5F4C8E90B /* QLSaveKeyBoard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E48557EC211335F25EB4A3CD1B51CF97 /* Pods-QLSaveKeyBoard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA4118EFF1412C1B0E4BF960067DDE4 /* Build configuration list for PBXNativeTarget "Pods-QLSaveKeyBoard_Example" */;
+			buildPhases = (
+				130089D9A3CCD07B564BE414804ED4FB /* Headers */,
+				2D267FBF1595578DD2846188FEF6F089 /* Sources */,
+				FF5DDDEFAE0B50DE7587CD5141EDC5C6 /* Frameworks */,
+				D4FB62EE2C867DF1A2126618BB29BEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47C74E33401BE47D41CD1E0B8A0ED24E /* PBXTargetDependency */,
+			);
+			name = "Pods-QLSaveKeyBoard_Example";
+			productName = "Pods-QLSaveKeyBoard_Example";
+			productReference = 27E24D0AB5EC67CD1CDF5D15A5A6A440 /* Pods_QLSaveKeyBoard_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EE13B27BE820FC272DA7A4FC3ACD8D15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E48557EC211335F25EB4A3CD1B51CF97 /* Pods-QLSaveKeyBoard_Example */,
+				DBB425C2237144F2B34C7BF7B0022CD8 /* Pods-QLSaveKeyBoard_Tests */,
+				DE58784080B65FF869C87B13D9C62FAB /* QLSaveKeyBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31C2BE6DEC5B813B3B060388566B861B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7540CCDC94A15852AFF0721A46BD029E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FB62EE2C867DF1A2126618BB29BEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D267FBF1595578DD2846188FEF6F089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9D863ACDC84D0915E08BB7227C94D1 /* Pods-QLSaveKeyBoard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3CA5CA648F22B5DAD44208B1713CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5077CE2F6E71FC8951CBD2B5F64CB1A /* Pods-QLSaveKeyBoard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D991F9D213C09A56E959A9899AEED3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E50804DFAB79763FF4B7E335E61920 /* QLSaveKeyBoard-dummy.m in Sources */,
+				FA6632D0E713BC4AD66E88A25B6885A6 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47C74E33401BE47D41CD1E0B8A0ED24E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QLSaveKeyBoard;
+			target = DE58784080B65FF869C87B13D9C62FAB /* QLSaveKeyBoard */;
+			targetProxy = 670B6E5615D18159541BC3DB3CE58888 /* PBXContainerItemProxy */;
+		};
+		FC45C2FEEB98B16C1AB02345693C98C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QLSaveKeyBoard_Example";
+			target = E48557EC211335F25EB4A3CD1B51CF97 /* Pods-QLSaveKeyBoard_Example */;
+			targetProxy = ADC4148B6B336788FA22AE1D93482AA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		29667C14D346CF0806DFC9F56AB61E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202AFDB07AD407BD8276DBA3BDD70A4A /* Pods-QLSaveKeyBoard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QLSaveKeyBoard_Example/Pods-QLSaveKeyBoard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QLSaveKeyBoard_Example/Pods-QLSaveKeyBoard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		850F63E19A9E025B8DACEFE2199A3D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BD8D0831D9B90DAA775C446C0DC356 /* Pods-QLSaveKeyBoard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QLSaveKeyBoard_Example/Pods-QLSaveKeyBoard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QLSaveKeyBoard_Example/Pods-QLSaveKeyBoard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8766218968AD43E201E40D2DE107553D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3349ACC6B7AD5284A3DEE3BE01CDEE /* QLSaveKeyBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QLSaveKeyBoard/QLSaveKeyBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QLSaveKeyBoard/QLSaveKeyBoard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QLSaveKeyBoard/QLSaveKeyBoard.modulemap";
+				PRODUCT_MODULE_NAME = QLSaveKeyBoard;
+				PRODUCT_NAME = QLSaveKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A5A233FF6470EF44A930901B259A195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3349ACC6B7AD5284A3DEE3BE01CDEE /* QLSaveKeyBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QLSaveKeyBoard/QLSaveKeyBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QLSaveKeyBoard/QLSaveKeyBoard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QLSaveKeyBoard/QLSaveKeyBoard.modulemap";
+				PRODUCT_MODULE_NAME = QLSaveKeyBoard;
+				PRODUCT_NAME = QLSaveKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		967AE25F88D0352E3700A6E296A90B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB132F650AE7746CB957500254BD5565 /* Pods-QLSaveKeyBoard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QLSaveKeyBoard_Tests/Pods-QLSaveKeyBoard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QLSaveKeyBoard_Tests/Pods-QLSaveKeyBoard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5FAF8D249D15B6C00995B4A310F80E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78EB8E69748358C9188968A82EB3312E /* Pods-QLSaveKeyBoard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QLSaveKeyBoard_Tests/Pods-QLSaveKeyBoard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QLSaveKeyBoard_Tests/Pods-QLSaveKeyBoard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C5ED8EF6074D0D68066F56DDEFAA1F /* Build configuration list for PBXNativeTarget "QLSaveKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8766218968AD43E201E40D2DE107553D /* Debug */,
+				8A5A233FF6470EF44A930901B259A195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA4118EFF1412C1B0E4BF960067DDE4 /* Build configuration list for PBXNativeTarget "Pods-QLSaveKeyBoard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850F63E19A9E025B8DACEFE2199A3D6E /* Debug */,
+				29667C14D346CF0806DFC9F56AB61E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAA03E1DFE6C4457EC0106648D93D14 /* Build configuration list for PBXNativeTarget "Pods-QLSaveKeyBoard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FAF8D249D15B6C00995B4A310F80E6 /* Debug */,
+				967AE25F88D0352E3700A6E296A90B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

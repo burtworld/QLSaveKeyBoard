@@ -1,0 +1,6 @@
+framework module QLSaveKeyBoard {
+  umbrella header "QLSaveKeyBoard-umbrella.h"
+
+  export *
+  module * { export * }
+}

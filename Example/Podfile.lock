@@ -1,0 +1,16 @@
+PODS:
+  - QLSaveKeyBoard (0.1.0)
+
+DEPENDENCIES:
+  - QLSaveKeyBoard (from `../`)
+
+EXTERNAL SOURCES:
+  QLSaveKeyBoard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QLSaveKeyBoard: 0c50a2a4738f7d2ebd5b240dfabac8bbd96525ef
+
+PODFILE CHECKSUM: f30353a9244bb4d65d6459610c53c25fc8a89c29
+
+COCOAPODS: 1.6.1
